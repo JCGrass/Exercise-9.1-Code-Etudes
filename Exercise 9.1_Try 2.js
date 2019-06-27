@@ -23,7 +23,7 @@ class Character {
   }
 }
 
-class Wizard extends Character {
+class myWizard extends Character {
   constructor(name, age, favorite song, hatColor, castSpell()){
       super(name, age, favorite song);
       this._hatColor = hatColor;
@@ -31,7 +31,7 @@ class Wizard extends Character {
   }
 }
 
-  class Bard extends Character {
+  class myBard extends Character {
     constructor(name, age, favorite song, playSong){
       super(name, age, favorite song);
       this._playSong = playSong;
